@@ -1,0 +1,111 @@
+
+h1 { color: white;
+
+margin:0;
+background-color: #4aaaa5;
+width: 200px;
+padding: 20px;
+margin-left: 80px;
+padding-top: 15px;
+font-size: 20px;
+
+
+
+ }
+
+ .Header1 {
+ 	display: inline-block;
+ 	
+
+ }
+ .Container
+ {
+ 	background-color: #dddddd;
+ 	width: 960px ;
+ 	height: 480px ;
+ 	border: 1px solid #dddddd;
+  
+ }
+
+ .header2
+ { 
+ padding-bottom: 20px;
+ color: #4aaaa5;
+ border-bottom: 2px solid lightgrey;
+ margin: 30px; }
+
+ .About
+ {
+ 	height: 400px;
+ 	width: 500px;
+ 	background-color: white;
+ 	margin: 50px;
+ 	float: left ;
+ 	border: 1px solid #dddddd;
+
+
+
+ }
+ .Links
+ {
+ 	height: 200px;
+ 	width: 250px;
+ 	background-color: white;
+ 	float: right;
+ 	margin: 50px;
+ 	border: 1px solid #dddddd;
+
+
+ 
+ }
+
+ footer{
+   text-align: center;
+   background-color: grey;
+   width: 962px;
+   color: white;
+   font-size: 10px;
+   padding: 25px 0px 25px 0px ;
+   border-top: 5px solid #4aaaa5;
+
+ }
+ .About img
+ { 
+ 	margin: 15px 0px 0px 25px;
+  }
+
+  #Nav li {
+  	float: right;
+  	width: 80px;
+  	list-style: none;
+  	border-right: 1px solid lightgrey;
+  	padding-left: 20px;
+  }
+
+
+#Nav { 
+	display: inline-block;
+	overflow: hidden;
+	color: grey ;
+		
+ }
+
+  #mainpic 
+ {
+  float: left;
+ 	margin: 0px 25px 0px 25px;
+ }
+
+.About p {
+  float:middle;
+  text-align: left;
+  padding: 15px;
+  margin: 15px;
+}
+.icons li {
+  list-style: none;
+  float: left;
+  display: inline;
+  padding: 5px;
+}
+
