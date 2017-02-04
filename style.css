@@ -11,6 +11,7 @@ font-size: 20px;
 
 
 
+
  }
 
  .Header1 {
@@ -22,7 +23,7 @@ font-size: 20px;
  {
  	border: 1px solid #4aaaa5;
  	width: 960px ;
- 	height: 480px ;
+ 	height: 600px ;
  	
   background-image: url("http://il9.picdn.net/shutterstock/videos/9352997/thumb/1.jpg");
   background-size: cover;
@@ -37,7 +38,7 @@ font-size: 20px;
 
  .About
  {
- 	height: 400px;
+ 	height: 500px;
  	width: 500px;
  	background-color: white;
  	margin: 50px;
@@ -80,15 +81,18 @@ font-size: 20px;
   	width: 80px;
   	list-style: none;
   	border-right: 1px solid lightgrey;
-  	padding-left: 20px;
-    color: grey;
+  	color: grey;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+
   }
 
 
 #Nav { 
 	display: inline-block;
-	overflow: hidden;
-	color: grey ;
+	
+	
 		
  }
 
@@ -96,6 +100,9 @@ font-size: 20px;
  {
   float: left;
  	margin: 0px 25px 0px 25px;
+  border-radius: 10px;
+  border: 1px solid #4aaaa5;
+  
  }
 
 .About p {
@@ -107,11 +114,84 @@ font-size: 20px;
   font-family: Arial;
   font-style: italic;
   color: grey;
+  line-height: 2em;
 }
 .icons li {
   list-style: none;
   float: left;
   display: inline;
-  padding: 4px;
+  padding: 4px 4px 1px 4px;
 }
 
+#ContactForm 
+{
+  text-align: center;
+  line-height: 2em;
+
+}
+
+#SubmitImput 
+
+{ 
+  background-color: #4aaaa5;
+  color: white;
+
+ }
+
+#NameImput { 
+width: 80%;
+height: 20px;
+
+ }
+
+ #EmailImput{
+width: 80%;
+height: 20px
+
+ }
+
+ #MessageImput
+ {
+  width: 80%;
+  height: 150px;
+  
+  
+ }
+ #FormUl 
+ {
+  list-style: none;
+  padding:0px;
+  margin: 0px;
+ }
+ #FormUl li 
+ {
+  text-align: left; 
+  color: #4aaaa5;
+  font-family: serif;
+  margin-left: 45px;
+  padding: 5px; 
+  }
+  #Nav li:hover
+  { background-color: #4aaaa5;
+  color: white; }
+  #portfolioTable 
+  {
+    align-content: center;
+    
+  }
+  .icons li:hover {
+    padding: +2px;
+}
+#portfolioTable img{
+border: 2px solid #4aaaa5;
+border-radius: 10px;
+
+}
+#portfolioTable img:hover
+{
+
+  
+}
+
+
+ }
