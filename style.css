@@ -142,18 +142,20 @@ font-size: 20px;
 width: 80%;
 height: 20px;
 
+
  }
 
  #EmailImput{
 width: 80%;
 height: 20px
 
+
  }
 
  #MessageImput
  {
   width: 80%;
-  height: 150px;
+  
   
   
  }
@@ -192,6 +194,8 @@ border-radius: 10px;
 
   
 }
+textarea {
+  border-color: lightgrey;
+}
 
-
- }
+ 
