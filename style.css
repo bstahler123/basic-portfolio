@@ -198,7 +198,7 @@ textarea {
   border-color: lightgrey;
 }
  
-@media screen and (max-width: 640px){
+@media screen and (max-width: 300px){
  
   .About{
     width: 95%;
